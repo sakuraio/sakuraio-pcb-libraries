@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -3203,26 +3203,26 @@ Please see &lt;a href="https://iot.sakura.ad.jp/"&gt;https://iot.sakura.ad.jp/&l
 <text x="-42.545" y="-20.955" size="1.27" layer="25">&gt;VALUE</text>
 </package>
 <package name="SCO-BB">
-<pad name="P$1" x="0" y="0" drill="1" shape="square"/>
-<pad name="P$2" x="0" y="-2.54" drill="1" shape="octagon"/>
-<pad name="P$3" x="0" y="-5.08" drill="1" shape="octagon"/>
-<pad name="P$4" x="0" y="-7.62" drill="1" shape="octagon"/>
-<pad name="P$5" x="0" y="-10.16" drill="1" shape="octagon"/>
-<pad name="P$6" x="0" y="-12.7" drill="1" shape="octagon"/>
-<pad name="P$7" x="0" y="-15.24" drill="1" shape="octagon"/>
-<pad name="P$8" x="0" y="-17.78" drill="1" shape="octagon"/>
-<pad name="P$9" x="0" y="-20.32" drill="1" shape="octagon"/>
-<pad name="P$10" x="0" y="-22.86" drill="1" shape="octagon"/>
-<pad name="P$11" x="53.34" y="-22.86" drill="1" shape="octagon"/>
-<pad name="P$12" x="53.34" y="-20.32" drill="1" shape="octagon"/>
-<pad name="P$13" x="53.34" y="-17.78" drill="1" shape="octagon"/>
-<pad name="P$14" x="53.34" y="-15.24" drill="1" shape="octagon"/>
-<pad name="P$15" x="53.34" y="-12.7" drill="1" shape="octagon"/>
-<pad name="P$16" x="53.34" y="-10.16" drill="1" shape="octagon"/>
-<pad name="P$17" x="53.34" y="-7.62" drill="1" shape="octagon"/>
-<pad name="P$18" x="53.34" y="-5.08" drill="1" shape="octagon"/>
-<pad name="P$19" x="53.34" y="-2.54" drill="1" shape="octagon"/>
-<pad name="P$20" x="53.34" y="0" drill="1" shape="octagon"/>
+<pad name="1" x="0" y="0" drill="1" shape="square"/>
+<pad name="2" x="0" y="-2.54" drill="1" shape="octagon"/>
+<pad name="3" x="0" y="-5.08" drill="1" shape="octagon"/>
+<pad name="4" x="0" y="-7.62" drill="1" shape="octagon"/>
+<pad name="5" x="0" y="-10.16" drill="1" shape="octagon"/>
+<pad name="6" x="0" y="-12.7" drill="1" shape="octagon"/>
+<pad name="7" x="0" y="-15.24" drill="1" shape="octagon"/>
+<pad name="8" x="0" y="-17.78" drill="1" shape="octagon"/>
+<pad name="9" x="0" y="-20.32" drill="1" shape="octagon"/>
+<pad name="10" x="0" y="-22.86" drill="1" shape="octagon"/>
+<pad name="11" x="53.34" y="-22.86" drill="1" shape="octagon"/>
+<pad name="12" x="53.34" y="-20.32" drill="1" shape="octagon"/>
+<pad name="13" x="53.34" y="-17.78" drill="1" shape="octagon"/>
+<pad name="14" x="53.34" y="-15.24" drill="1" shape="octagon"/>
+<pad name="15" x="53.34" y="-12.7" drill="1" shape="octagon"/>
+<pad name="16" x="53.34" y="-10.16" drill="1" shape="octagon"/>
+<pad name="17" x="53.34" y="-7.62" drill="1" shape="octagon"/>
+<pad name="18" x="53.34" y="-5.08" drill="1" shape="octagon"/>
+<pad name="19" x="53.34" y="-2.54" drill="1" shape="octagon"/>
+<pad name="20" x="53.34" y="0" drill="1" shape="octagon"/>
 <wire x1="56.67" y1="-36.43" x2="56.67" y2="13.57" width="0.127" layer="21"/>
 <wire x1="56.67" y1="13.57" x2="-3.33" y2="13.57" width="0.127" layer="21"/>
 <hole x="54.17" y="-33.93" drill="2.8"/>
@@ -7691,7 +7691,7 @@ Please see &lt;a href="https://iot.sakura.ad.jp/"&gt;https://iot.sakura.ad.jp/&l
 <pin name="GND1" x="-2.54" y="2.54" length="short" direction="pwr"/>
 <pin name="GND0" x="-2.54" y="5.08" length="short" direction="pwr"/>
 <pin name="3V9" x="-2.54" y="50.8" length="short" direction="pwr"/>
-<pin name="V_IN0" x="-2.54" y="55.88" length="short" direction="pwr"/>
+<pin name="VIN" x="-2.54" y="55.88" length="short" direction="pwr"/>
 <pin name="LDO_OUT" x="27.94" y="55.88" length="short" direction="sup" rot="R180"/>
 <pin name="UART_TX" x="27.94" y="50.8" length="short" direction="out" rot="R180"/>
 <pin name="UART_RX" x="27.94" y="48.26" length="short" direction="in" rot="R180"/>
@@ -7774,26 +7774,26 @@ Please see &lt;a href="https://iot.sakura.ad.jp/"&gt;https://iot.sakura.ad.jp/&l
 <devices>
 <device name="" package="SCO-BB">
 <connects>
-<connect gate="G$1" pin="3V9" pad="P$10"/>
-<connect gate="G$1" pin="ADC_IN1" pad="P$8"/>
-<connect gate="G$1" pin="ADC_IN2" pad="P$7"/>
-<connect gate="G$1" pin="CLK" pad="P$15"/>
-<connect gate="G$1" pin="CS" pad="P$16"/>
-<connect gate="G$1" pin="GND0" pad="P$2"/>
-<connect gate="G$1" pin="GND1" pad="P$19"/>
-<connect gate="G$1" pin="LDO_OUT" pad="P$9"/>
-<connect gate="G$1" pin="LED_OUT" pad="P$4"/>
-<connect gate="G$1" pin="MISO" pad="P$14"/>
-<connect gate="G$1" pin="MODE_IN" pad="P$3"/>
-<connect gate="G$1" pin="MOSI" pad="P$13"/>
-<connect gate="G$1" pin="RESET" pad="P$1"/>
-<connect gate="G$1" pin="SCL" pad="P$18"/>
-<connect gate="G$1" pin="SDA" pad="P$17"/>
-<connect gate="G$1" pin="UART_RX" pad="P$12"/>
-<connect gate="G$1" pin="UART_TX" pad="P$11"/>
-<connect gate="G$1" pin="V_IN0" pad="P$20"/>
-<connect gate="G$1" pin="WAKE_IN" pad="P$6"/>
-<connect gate="G$1" pin="WAKE_OUT" pad="P$5"/>
+<connect gate="G$1" pin="3V9" pad="10"/>
+<connect gate="G$1" pin="ADC_IN1" pad="8"/>
+<connect gate="G$1" pin="ADC_IN2" pad="7"/>
+<connect gate="G$1" pin="CLK" pad="15"/>
+<connect gate="G$1" pin="CS" pad="16"/>
+<connect gate="G$1" pin="GND0" pad="2"/>
+<connect gate="G$1" pin="GND1" pad="19"/>
+<connect gate="G$1" pin="LDO_OUT" pad="9"/>
+<connect gate="G$1" pin="LED_OUT" pad="4"/>
+<connect gate="G$1" pin="MISO" pad="14"/>
+<connect gate="G$1" pin="MODE_IN" pad="3"/>
+<connect gate="G$1" pin="MOSI" pad="13"/>
+<connect gate="G$1" pin="RESET" pad="1"/>
+<connect gate="G$1" pin="SCL" pad="18"/>
+<connect gate="G$1" pin="SDA" pad="17"/>
+<connect gate="G$1" pin="UART_RX" pad="12"/>
+<connect gate="G$1" pin="UART_TX" pad="11"/>
+<connect gate="G$1" pin="VIN" pad="20"/>
+<connect gate="G$1" pin="WAKE_IN" pad="6"/>
+<connect gate="G$1" pin="WAKE_OUT" pad="5"/>
 </connects>
 <technologies>
 <technology name=""/>
