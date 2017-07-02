@@ -3,3 +3,4 @@
 ## Applications
 
 * [CadSoft Eagle](https://cadsoft.io/)
+* [KiCad](http://kicad-pcb.org/)

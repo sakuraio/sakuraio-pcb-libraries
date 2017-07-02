@@ -1,0 +1,15 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SCM-DF40
+D sakura.io Communication Module
+K sakura.io
+F https://sakura.io/developer/pdf/sakura_module_datasheet_latest.pdf
+$ENDCMP
+#
+$CMP SCO-BB
+D sakura.io Breakout Board
+K sakura.io
+F https://sakura.io/developer/pdf/sco-bb-01_manual_latest.pdf
+$ENDCMP
+#
+#End Doc Library
